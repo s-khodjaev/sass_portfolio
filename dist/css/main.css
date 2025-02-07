@@ -22,3 +22,8 @@ h4 {
 
 img {
   width: 100%; }
+
+#header-home {
+  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  height: 100vh;
+  color: #fff; }
