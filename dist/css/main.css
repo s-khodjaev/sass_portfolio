@@ -212,6 +212,7 @@ img {
 }
 #home-c .process-icon:hover {
   background-color: #ffbc00;
+  color: #fff;
   width: 110px;
   height: 110px;
   line-height: 110px;
