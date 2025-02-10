@@ -151,4 +151,34 @@ img {
       }
     }
   }
+
+  // Home Section C
+  &-c {
+    .process {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      text-align: center;
+
+      // Process Icon
+      &-icon {
+        border-radius: 50%;
+        background: $dark-color;
+        color: #fff;
+        // padding: rem;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        transition: all 1s;
+
+        &:hover {
+          background-color: $main-color;
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+        }
+      }
+    }
+  }
 }
