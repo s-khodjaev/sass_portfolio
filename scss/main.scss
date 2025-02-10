@@ -165,7 +165,6 @@ img {
         border-radius: 50%;
         background: $dark-color;
         color: #fff;
-        // padding: rem;
         width: 100px;
         height: 100px;
         line-height: 100px;
@@ -174,10 +173,37 @@ img {
 
         &:hover {
           background-color: $main-color;
-          width: 90px;
-          height: 90px;
-          line-height: 90px;
+          width: 110px;
+          height: 110px;
+          line-height: 110px;
         }
+      }
+    }
+  }
+}
+
+// Footer
+
+#main-footer {
+  background-color: $dark-color;
+  color: #fff;
+  height: 5rem;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+
+    .social i {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      padding: 0.5rem;
+
+      &:hover {
+        background-color: $main-color;
       }
     }
   }
