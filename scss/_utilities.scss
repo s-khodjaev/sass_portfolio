@@ -41,6 +41,27 @@ input[class^='btn-']:hover {
   background-color: $main-color;
 }
 
+// Backgrounds
+
+.bg {
+  &-main {
+    background-color: $main-color;
+    color: setTextColor($main-color);
+  }
+  &-medium {
+    background-color: $medium-color;
+    color: setTextColor($medium-color);
+  }
+  &-dark {
+    background-color: $dark-color;
+    color: setTextColor($dark-color);
+  }
+  &-light {
+    background-color: $light-color;
+    color: setTextColor($light-color);
+  }
+}
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
